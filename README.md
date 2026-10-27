@@ -81,7 +81,7 @@ OBS's own update check is turned off in this install: a newer OBS comes with a n
 
 1. Open the **[Releases](https://github.com/rubeldbc/cabtv-air-release/releases)** page.
 2. Under the newest release, click **cabtv-air-1.0.0-windows-x64-setup.exe** to download it.
-3. Each release lists the file's **SHA-256** fingerprint (and `SHA256SUMS.txt` beside it).
+3. Each release's text gives the file's **SHA-256** fingerprint.
 
 <details>
 <summary>For IT staff: checking the download's fingerprint</summary>
@@ -232,10 +232,10 @@ OBS Studio is the work of the OBS Project and is not part of CabTV Air; CabTV Ai
 
 ## 14. About this repository
 
-- This repository holds **only this README**. Each setup is published as a file of a
-  **[Release](https://github.com/rubeldbc/cabtv-air-release/releases)** (GitHub keeps files of that size there, not
-  in the repository itself), with its SHA-256 beside it.
-- **No source code is published here.** Please do not open pull requests.
+- This repository holds **only this README**. Each release holds **only the setup file**, its SHA-256 in the release's
+  text (GitHub keeps files of that size in a release, not in the repository itself).
+- **No source code of CabTV Air is published here.** The *Source code (zip)* and *(tar.gz)* links GitHub adds to every
+  release by itself contain only this README. Please do not open pull requests.
 - Questions and support: your CabTV Air provider.
 
 © 2026 Kamrul Islam Rubel. CabTV Air.
